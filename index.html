@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto - Dicas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Amigo Secreto</h1>
+        <div class="input-section">
+            <label for="palavra-chave">Digite uma Dica:</label>
+            <input type="text" id="palavra-chave" placeholder="">
+            <button onclick="gerarDica()">Gerar Dica</button>
+        </div>
+        
+        <div id="dica-container">
+            <p><strong>Dica:</strong> <span id="dica"></span></p>
+        </div>
+        
+        <div id="imagem-container">
+            <img id="imagem" src="img/caixa.png" alt="Imagem do presente">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
